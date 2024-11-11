@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} TMB / Блог {% endblock %}
+
+{% block blog_active %}active{% endblock %}
+
+{% block content %}
+    <p> </p><br>
+
+    <ul>
+    {% for article in articles %}
+        <li>
+            <a href="{% url 'home:article_detail' article.slug %}">
+                {{ article.title }}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}
+
+{% block footer %} &copy; 2024 {% endblock %}

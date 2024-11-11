@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    position: center;
+    background-color: #879391;
+    color: black
+    },
+
+main {
+    padding: 0;
+    margin: 1;
+    background-color: #879391;
+    color: black;
+    },
+
+li {
+    padding: 0;
+    margin: 0;
+    font: "default";
+    position: center;
+    font-weight: cursive;
+    }
+
+p {
+    margin-left: 60px;
+    padding: 0;
+    margin: 1;
+    font: "default";
+    font-weight: cursive;
+    }
+
+h1 {
+    margin-left: 40px;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    color: black;
+    }
+
+h2 {
+    margin-left: 30px;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    color: black;
+    }
+
+h3 {
+    margin-left: 40px;
+    padding: 0;
+    margin: 10;
+    font-size: 25px;
+    color: black;
+    }
+
+h4 {
+    margin-left: 60px;
+    padding: 0;
+    margin: 10;
+    font-size: 20px;
+    color: black;
+    }
+
+h5 {
+    margin-left: 30px;
+    padding: 0;
+    margin: 10;
+    font-size: 20px;
+    color: black;
+    }
+
+h6 {
+    margin-left: 30px;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    color: black;
+    }
+
+a {
+    margin-left: 10px;
+    font-size: 18px;
+    color: black;
+    }
+
+b {
+    margin-left: 20px;
+    padding: 0;
+    margin: 10;
+    font-size: 15px;
+    color: black;
+    }
+
+ul {
+    margin-left: 60px;
+    padding: 0;
+    margin: 30;
+    font-size: 15px;
+    color: black;
+    }
+
+section {
+    margin-left: 60px;
+    padding: 0;
+    margin: 30;
+    font-size: 15px;
+    color: black;
+    }
+
+footer {
+    margin-left: 60px;
+    padding: 0;
+    margin: 30;
+    font-size: 15px;
+    color: black;
+    }
+
+article {
+    margin-left: 60px;
+    padding: 0;
+    margin: 30;
+    font-size: 15px;
+    color: black;
+    }
+
+small {
+    margin-left: 60px;
+    padding: 0;
+    margin: 30;
+    color: black;
+    }

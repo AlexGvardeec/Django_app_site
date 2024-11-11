@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %} TMB / {{ article.title }} {% endblock %}
+
+{% block blog_active %} active {% endblock %}
+
+{% block content %}
+    <p> </p><br>
+    <h4><strong>{{ article.title }}</strong></h4>
+
+    <div>
+        <small>
+            Дата публикации: {{ article.created_at }}
+        </small>
+    </div>
+
+    <p> </p><br><p> </p>
+
+    <article>
+        {{ article.body | safe }}
+    </article>
+
+    <p> </p><br><p> </p>
+
+    <p>
+        <a href="{% url 'home:article_list' %}">
+            &lt;&lt; Вернуться назад
+        </a>
+    </p>
+
+{% endblock %}
+
+{% block footer %} &copy; 2024 {% endblock %}

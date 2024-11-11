@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %} TMB / Контакты {% endblock %}}
+{% block h1 %} Контакты {% endblock %}
+
+{% block contacts_active %}active{% endblock %}
+
+{% block content %}
+    <p> </p><br>
+    <ul>
+        <li>
+            <h6>Телефон: <a class="nav-link" href="tel:+79879246784">+7 (987) 924-67-84</a></h6>
+        </li>
+        <li>
+            <h6>Telegram: <a class="nav-link" href="https://t.me/gvardeec">gvardeec</a></h6>
+        </li>
+        <li>
+            <h6>VK: <a class="nav-link" href="https://vk.com/alex_gvardeec">alex_gvardeec</a></h6>
+        </li>
+    </ul>
+
+    <p> </p><br>
+    <h3>Обратная связь </h3>
+    <section class="contact-form">
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_div }}
+            <button type="submit" class="button">Отправить сообщение</button>
+        </form>
+
+        {% if success_message %}
+        <div>
+            {{ success_message | safe }}
+        </div>
+        {% endif %}
+    </section>
+{% endblock %}
